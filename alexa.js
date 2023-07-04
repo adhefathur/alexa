@@ -6,7 +6,7 @@ const fs = require('fs');
 async function Alexa () {
     const conn = new WAConnection();
     const Session = new StringSession();
-    conn.version = [2, 2140, 12]
+    conn.version = [2, 2323, 4]
     conn.logger.level = 'warn';
     conn.regenerateQRIntervalMs = 50000;
     
